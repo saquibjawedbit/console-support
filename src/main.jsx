@@ -9,7 +9,7 @@ import React from 'react';
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <BrowserRouter>
-      <Routes>
+      <Routes>  
         <Route path='/'  element={<App/>}/>
         <Route path='/trackify/account-delete' element={<AccountDeletion/>}/>
       </Routes>
