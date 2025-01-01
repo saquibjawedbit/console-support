@@ -5,6 +5,7 @@ import App from './App.jsx';
 import AccountDeletion from './Pages/AccountDeletion.jsx';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import React from 'react';
+import PrivacyPolicy from './Pages/PrivacyPolicy.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -12,6 +13,7 @@ createRoot(document.getElementById('root')).render(
       <Routes>  
         <Route path='/'  element={<App/>}/>
         <Route path='/trackify/account-delete' element={<AccountDeletion/>}/>
+        <Route path='/trackify/privacy-policy' element={<PrivacyPolicy/>}/>
       </Routes>
     </BrowserRouter>
   </StrictMode>,
